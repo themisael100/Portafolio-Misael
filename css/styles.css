@@ -1,8 +1,8 @@
 :root {
     --primary-color: hsl(214, 84%, 56%);
-    --text-color: hsl(0, 0%, 31%);
-    --bg-color: hsl(0, 0%, 90%);
-    --bg-card-color: hsl(0, 0%, 98%);
+    --text-color: hsl(0, 0%, 100%);
+    --bg-color: hsl(0, 0%, 15%);
+    --bg-card-color: hsl(0, 0%, 20%);
     --border-radius: 0.4em;
     --transition: color 0.1s, background-color 0.2s ease-in-out;
     --skills-bar-length: 0%;
@@ -32,7 +32,7 @@
   
   body.dark {
     --text-color: hsl(0, 0%, 15%);
-    --bg-color:  hsl(0, 0%, 83%);
+    --bg-color:  hsl(0, 0%, 93%);
     --bg-card-color: hsl(0, 0%, 100%);
   }
   
