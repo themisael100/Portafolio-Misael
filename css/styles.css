@@ -41,3 +41,37 @@
     background-color: var(--bg-card-color);
     transition: var(--transition);
   }
+  .switches {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .toggle-theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .toggle-theme__icon {
+    margin-right: 0.5em;
+    width: 20px;
+  }
+  
+  .toggle-theme__text {
+    font-size: 0.8rem;
+  }
+  
+  .flags {
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .flags__item {
+    width: 30px;
+  }
+  
+  .flags__img {
+    display: block;
+    cursor: pointer;
+  }
