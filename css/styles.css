@@ -32,8 +32,8 @@
   
   body.dark {
     --text-color: hsl(0, 0%, 15%);
-    --bg-color:  hsl(0, 0%, 93%);
-    --bg-card-color: hsl(0, 0%, 100%);
+    --bg-color: hsl(0, 0%, 90%);
+    --bg-card-color: hsl(0, 0%, 98%);
   }
   
   .header {

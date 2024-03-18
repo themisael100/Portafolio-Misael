@@ -1,0 +1,25 @@
+{
+  "profile": {
+    "rol": "Backend Developer",
+    "description": "Hello! I'm Bryan Misael Sanchez Ramirez, a passionate and growing .NET junior programmer. <br> I specialize in developing efficient solutions on this platform, and my goal is to apply my knowledge to deliver effective results in each project I tackle."
+  },
+  "experience": {
+    "first-job-experience": "Experience",
+    "first-job-title": "TECHNICAL BACHELOR IN SOFTWARE DEVELOPMENT",
+    "first-job-dates": "2020 - 2022 Education",
+    "first-job-description": "National Institute of Ciudad Arce INCA, El Salvador During my time studying, I developed my foundations in programming, creating small projects and taking my first steps as a developer.",
+    "second-job-title": "TECHNICIAN IN SOFTWARE DEVELOPMENT ENGINEERING",
+    "second-job-dates": "2023 - 2023 Education",
+    "second-job-description": "Franciscan Specialized School ESFE AGAPE, El Salvador Through a scholarship that was granted to me, I was able to continue my academic training, which gave me the opportunity to refine my skills as a programmer.",
+    "last-job-title": "JUNIOR PROGRAMMER",
+    "last-job-dates": "2023 - 2024 Professional Experience",
+    "last-job-description": "During my first formal foray into the working world, I had the privilege of collaborating with the Restaurant chain MAURITA MANCEJA SA de CV, as part of my professional practices. My main focus was to contribute to the development and implementation of a comprehensive inventory distribution and management system. This experience, framed within a team project, provided me with the opportunity to expand my knowledge and skills in the professional field."
+  },
+  "project": {
+    "four-job-description": "It is an inventory and distribution management system for branches, designed to meet the business needs as they were facing issues with inventory management both at the main warehouse and the branches. The system addresses this need and successfully resolves these problems."
+  },
+  "skills": {
+    "first-job-years": "Years of experience",
+    "first-job-tittle": "Others"
+  }
+}

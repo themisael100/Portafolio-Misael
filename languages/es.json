@@ -1,0 +1,25 @@
+{
+  "profile": {
+    "rol": "Desarrollador Back-end",
+    "description": "¡Hola! Soy Bryan Misael Sanchez Ramirez, un programador jr de .NET apasionado y en crecimiento. <br> Me especializo en desarrollar soluciones eficientes en esta plataforma, y mi objetivo es aplicar mis conocimientos para ofrecer resultados efectivos en cada proyecto que abordo."
+  },
+  "experience": {
+    "first-job-experience": "Experiencia",
+    "first-job-title": "BACHILLERATO TÉCNICO EN DESARROLLO DE SOFTWARE",
+    "first-job-dates": "2020 - 2022 Educación",
+    "first-job-description": "Instituto Nacional de Ciudad Arce INCA, El Salvador En el lapso de tiempo que estudié, desarrollé mis bases en la programación, creando pequeños proyectos y dando mis primeros pasos como desarrollador.",
+    "second-job-title": "TÉCNICO EN INGENIERÍA DE DESARROLLO DE SOFTWARE",
+    "second-job-dates": "  2023 - 2023 Educación",
+    "second-job-description": "Escuela Superior Franciscana Especializada ESFE AGAPE, El Salvador A través de una beca que me fue otorgada, pude dar continuidad a mi formación académica, lo que me brindó la oportunidad de perfeccionar mis habilidades como programador.",
+    "last-job-title": " PROGRAMADOR JR",
+    "last-job-dates": "2023 - 2024 Experiencia Profesional",
+    "last-job-description": "Durante mi primera incursión formal en el mundo laboral, tuve el privilegio de colaborar con la cadena de Restaurantes MAURITA MANCEJA SA de CV, como parte de mis prácticas profesionales. Mi enfoque principal consistió en contribuir al desarrollo y la implementación de un sistema integral de distribución y gestión de inventarios. Esta experiencia, enmarcada en un proyecto de equipo, me brindó la oportunidad de ampliar mis conocimientos y habilidades en el ámbito profesional."
+  },
+  "project": {
+    "four-job-description": "Es un sistema de gestión de inventario y distribución para sucursales. Fue diseñado para satisfacer las necesidades del negocio, ya que enfrentaban problemas en la gestión de inventarios tanto en el almacén principal como en las sucursales. El sistema aborda esta necesidad y resuelve con éxito estos problemas."
+  },
+  "skills": {
+    "first-job-years": "Años de experiencia",
+    "first-job-tittle": "Otros"
+  }
+}
