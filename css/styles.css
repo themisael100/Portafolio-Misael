@@ -1,0 +1,43 @@
+:root {
+    --primary-color: hsl(214, 84%, 56%);
+    --text-color: hsl(0, 0%, 31%);
+    --bg-color: hsl(0, 0%, 90%);
+    --bg-card-color: hsl(0, 0%, 98%);
+    --border-radius: 0.4em;
+    --transition: color 0.1s, background-color 0.2s ease-in-out;
+    --skills-bar-length: 0%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  body {
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: var(--transition);
+    font-family: sans-serif;
+  }
+  body.dark {
+    --text-color: hsl(0, 0%, 15%);
+    --bg-color:   hsl(0, 0%, 83%);
+    --bg-card-color: hsl(0, 0%, 83%);
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    padding: 0 1.5em;
+    background-color: var(--bg-card-color);
+    transition: var(--transition);
+  }
