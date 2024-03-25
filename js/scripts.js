@@ -40,3 +40,7 @@ toggleTheme.addEventListener("click", () => {
 toggleColors.addEventListener("click", (e) => {
   rootStyles.setProperty("--primary-color", e.target.dataset.color);
 });
+
+function mostrarAlerta() {
+  alert('De acuerdo con las políticas de confidencialidad de la empresa, no podemos compartir el código fuente del proyecto. Sin embargo, puedes obtener una visión del proyecto a través de videos que muestran su funcionamiento y características.');
+}
