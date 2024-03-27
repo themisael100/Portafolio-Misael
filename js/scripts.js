@@ -44,3 +44,20 @@ toggleColors.addEventListener("click", (e) => {
 function mostrarAlerta() {
   alert('De acuerdo con las políticas de confidencialidad de la empresa, no podemos compartir el código fuente del proyecto. Sin embargo, puedes obtener una visión del proyecto a través de videos que muestran su funcionamiento y características.');
 }
+
+let ListVideo = document.querySelectorAll(".video-list .vid");
+let videoMain = document.querySelector(".video-main video");
+let title = document.querySelector(".video-main .card__title");
+
+ListVideo.forEach((video) => {
+  video.onclick = () => {
+    ListVideo.forEach((vid) => vid.classList.remove("active"));
+    video.classList.add("active");
+    if (video.classList.contains("active")) {
+      let src = video.children[0].getAttribute("src");
+      videoMain.src = src;
+      let text = video.children[1].innerHTML;
+      title.textContent = text; // Actualizar el texto del título del video principal
+    }
+  };
+});
