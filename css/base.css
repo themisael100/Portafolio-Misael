@@ -1,0 +1,104 @@
+/* Base
+   Variables de color y tipografía, reset, contenedor, títulos y botones. */
+
+:root {
+   --ink: #0b1a30;
+   --ink2: #13294a;
+   --violet: #512bd4;
+   --violet-l: #b9a8ff;
+   --tint: #efeafd;
+   --paper: #f7f8fb;
+   --white: #fff;
+   --text: #1d2939;
+   --muted: #5a6678;
+   --line: #dde2ea;
+   --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box
+}
+
+html {
+   scroll-behavior: smooth
+}
+
+body {
+   margin: 0;
+   font: 400 1rem/1.65 var(--sans);
+   color: var(--text);
+   background: var(--white)
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto
+}
+
+a {
+   color: var(--violet)
+}
+
+:focus-visible {
+   outline: 3px solid var(--violet);
+   outline-offset: 3px
+}
+
+.wrap {
+   width: min(1120px, 100% - 3rem);
+   margin-inline: auto
+}
+
+section[id] {
+   scroll-margin-top: 72px
+}
+
+h1,
+h2,
+h3 {
+   margin: 0;
+   line-height: 1.15;
+   letter-spacing: -.02em
+}
+
+h2 {
+   font-size: clamp(1.75rem, 3vw, 2.25rem);
+   font-weight: 700;
+   color: var(--ink)
+}
+
+p {
+   margin: 0 0 .85rem
+}
+
+.btn {
+   display: inline-block;
+   padding: .8rem 1.4rem;
+   border-radius: 4px;
+   font-weight: 600;
+   text-decoration: none;
+   border: 2px solid var(--violet);
+   background: var(--violet);
+   color: var(--white);
+   transition: background-color .15s, color .15s, border-color .15s
+}
+
+.btn:hover {
+   background: #3f1fb0;
+   border-color: #3f1fb0
+}
+
+.btn--ghost {
+   background: transparent;
+   border-color: rgba(255, 255, 255, .55);
+   color: var(--white)
+}
+
+.btn--ghost:hover {
+   background: var(--white);
+   border-color: var(--white);
+   color: var(--ink)
+}

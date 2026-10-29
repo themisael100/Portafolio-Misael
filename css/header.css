@@ -1,0 +1,58 @@
+/* Barra superior
+   Cabecera fija con marca, menú y botón del CV. */
+
+/* Barra superior */
+.top {
+   position: sticky;
+   top: 0;
+   z-index: 10;
+   background: rgba(11, 26, 48, .96);
+   border-bottom: 1px solid rgba(255, 255, 255, .1)
+}
+
+.top .wrap {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 64px;
+   gap: 1rem
+}
+
+.brand {
+   display: flex;
+   align-items: center;
+   gap: .75rem;
+   color: var(--white);
+   text-decoration: none;
+   font-weight: 600
+}
+
+.brand b {
+   display: grid;
+   place-items: center;
+   width: 34px;
+   height: 34px;
+   background: var(--violet);
+   border-radius: 4px;
+   font-size: .9rem
+}
+
+.nav {
+   display: flex;
+   gap: 1.5rem
+}
+
+.nav a {
+   color: rgba(255, 255, 255, .78);
+   text-decoration: none;
+   font-size: .95rem
+}
+
+.nav a:hover {
+   color: var(--white)
+}
+
+.top .btn {
+   padding: .5rem 1rem;
+   font-size: .9rem
+}

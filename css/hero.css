@@ -1,0 +1,124 @@
+/* Portada y tecnologías
+   Sección de inicio y franja de tecnologías. */
+
+/* Portada */
+.hero {
+   position: relative;
+   overflow: hidden;
+   color: var(--white);
+   background-color: var(--ink);
+   background-image: linear-gradient(rgba(255, 255, 255, .05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .05) 1px, transparent 1px);
+   background-size: 56px 56px
+}
+
+.hero .wrap {
+   display: grid;
+   grid-template-columns: 1.25fr .75fr;
+   gap: 3rem;
+   align-items: center;
+   padding-block: 5.5rem
+}
+
+.hero__role {
+   display: inline-block;
+   margin-bottom: 1.25rem;
+   padding: .3rem .8rem;
+   border: 1px solid var(--violet-l);
+   border-radius: 99px;
+   color: var(--violet-l);
+   font-size: .9rem;
+   font-weight: 500
+}
+
+.hero h1 {
+   font-size: clamp(2.4rem, 5.4vw, 4.2rem);
+   font-weight: 700
+}
+
+.hero p.lead {
+   margin: 1.5rem 0 2rem;
+   max-width: 34rem;
+   font-size: 1.15rem;
+   color: rgba(255, 255, 255, .82)
+}
+
+.hero__cta {
+   display: flex;
+   flex-wrap: wrap;
+   gap: .75rem
+}
+
+.hero__meta {
+   margin: 2.25rem 0 0;
+   padding: 0;
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   gap: .5rem 2rem;
+   color: rgba(255, 255, 255, .7);
+   font-size: .95rem
+}
+
+.photo {
+   position: relative;
+   justify-self: center;
+   width: min(300px, 100%)
+}
+
+.photo::before {
+   content: "";
+   position: absolute;
+   inset: 18px -18px -18px 18px;
+   background: var(--violet);
+   border-radius: 6px
+}
+
+.photo img {
+   position: relative;
+   width: 100%;
+   aspect-ratio: 1;
+   object-fit: cover;
+   border-radius: 6px;
+   border: 1px solid rgba(255, 255, 255, .2)
+}
+
+@media (prefers-reduced-motion:no-preference) {
+   .hero .wrap {
+      animation: in .7s ease-out both
+   }
+
+   @keyframes in {
+      from {
+         opacity: 0;
+         transform: translateY(14px)
+      }
+   }
+}
+
+/* Tecnologías */
+.stack {
+   background: var(--tint);
+   border-bottom: 1px solid var(--line)
+}
+
+.stack ul {
+   list-style: none;
+   margin: 0;
+   padding: 1.25rem 0;
+   display: flex;
+   flex-wrap: wrap;
+   gap: .5rem 1.75rem;
+   justify-content: center;
+   font-weight: 600;
+   color: var(--ink)
+}
+
+.stack li::before {
+   content: "";
+   display: inline-block;
+   width: 8px;
+   height: 8px;
+   margin-right: .55rem;
+   background: var(--violet);
+   border-radius: 2px
+}

@@ -1,0 +1,51 @@
+/* Responsive
+   Ajustes para tablet y móvil. Debe cargarse al final. */
+
+@media (max-width:900px) {
+  .nav {
+    display: none
+  }
+
+  .hero .wrap,
+  .about,
+  .project .wrap {
+    grid-template-columns: 1fr
+  }
+
+  .hero .wrap {
+    padding-block: 3.5rem;
+    gap: 2.5rem
+  }
+
+  .photo {
+    width: min(240px, 80%);
+    justify-self: start;
+    margin-left: 0
+  }
+
+  .project .wrap {
+    gap: 2rem
+  }
+
+  .project img {
+    max-width: 320px
+  }
+
+  .sec {
+    padding-block: 3.5rem
+  }
+}
+
+@media (max-width:480px) {
+  .timeline {
+    padding-left: 1.5rem
+  }
+
+  .tl {
+    padding-left: 1rem
+  }
+
+  .tl::before {
+    left: -2.15rem
+  }
+}

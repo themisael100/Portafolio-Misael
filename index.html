@@ -1,237 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="" type="icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Portfolio</title>
-    <link rel="icon" href="/assets/images/icono.png" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bryan Misael Sánchez Ramírez | Desarrollador .NET Junior</title>
+<meta name="description" content="Portafolio de Bryan Misael Sánchez Ramírez, programador junior .NET (C#, ASP.NET Core MVC, SQL Server) en El Salvador.">
+<link rel="icon" href="assets/images/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/hero.css">
+<link rel="stylesheet" href="css/sections.css">
+<link rel="stylesheet" href="css/responsive.css">
+
 </head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio"><b>BM</b><span>Misael Sánchez</span></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#perfil">Perfil</a>
+      <a href="#trayectoria">Trayectoria</a>
+      <a href="#proyecto">Proyecto</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn" href="assets/docs/Bryan-Misael-CV.pdf" download="Bryan-Misael-CV.pdf">Descargar CV</a>
+  </div>
+</header>
 
-<body class="dark">
-    <header class="header">
-        <div class="switches">
-          <div id="toggle-theme" class="toggle-theme">
-            <img
-              id="toggle-icon"
-              src="assets/icons/sun.svg"
-              alt="icon theme"
-              class="toggle-theme__icon"
-            />
-            <p id="toggle-text" class="toggle-theme__text">Claro</p>
-          </div>
-        </div>
-        <div id="flags" class="flags">
-          <div class="flags__item" data-language="es">
-            <img src="/assets/icons/es.svg" alt="" />
-          </div>
-          <div class="flags__item" data-language="en">
-            <img src="/assets/icons/gb.svg" alt="" />
-          </div>
-        </div>
-        <div id="toggle-colors" class="colors">
-          <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
-  
-          <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
-  
-          <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
-  
-          <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
-        </div>
-      </header>
+<main>
+<section class="hero" id="inicio">
+  <div class="wrap">
+    <div>
+      <span class="hero__role">Desarrollador .NET Junior</span>
+      <h1>Bryan Misael Sánchez Ramírez</h1>
+      <p class="lead">Construyo soluciones eficientes con C# y ASP.NET Core, con experiencia en un sistema real de gestión de inventarios y distribución.</p>
+      <div class="hero__cta">
+        <a class="btn" href="#contacto">Contactarme</a>
+        <a class="btn btn--ghost" href="#proyecto">Ver proyecto</a>
+      </div>
+      <ul class="hero__meta"><li>La Libertad, El Salvador</li><li>C# · ASP.NET Core MVC · SQL Server</li></ul>
+    </div>
+    <div class="photo"><img src="assets/images/FPerfil.png" width="300" height="300" alt="Foto de Bryan Misael Sánchez Ramírez"></div>
+  </div>
+</section>
 
-    <main class="main">
-        <section class="column column--left">
-          <!-- PROFILE CARD -->
-          <section class="column column--left">
-            <!-- PROFILE CARD -->
-            <article class="card card--profile">
-              <div class="card__image-container">
-                <img src="assets/images/yo.png" alt="" />
-              </div>
-              <div class="card__header">
-                <h2 class="card__title no-margin">Bryan Misael Sánchez Ramírez</h2>
-                <p class="card__subtitle" data-section="profile" data-value="rol">
-                  Desarrollador .NET
-                </p>
-              </div>
-              <div class="card__body">
-                <div class="card__link">
-                  <i class="fas fa-envelope icon"></i>
-                  <a href="mailto:softwaremisael@gmail.com">softwaremisael@gmail.com </a>
-                </div>
-               <!--<div class="card__link">
-                  <i class="fas fa-phone-alt icon"></i>
-                  <a href="tel:7322-1321"> +503 7322-1321 </a>
-                </div> --> 
-                <div class="card__link">
-                  <i class="fab fa-github icon"></i>
-                  <a href="https://github.com/themisael100" target="_blank">Github</a>
-                </div>  
+<div class="stack"><div class="wrap"><ul aria-label="Tecnologías">
+  <li>C#</li><li>ASP.NET Core MVC</li><li>SQL Server</li><li>Entity Framework</li><li>Java</li><li>Bootstrap</li><li>Git</li>
+</ul></div></div>
 
-                <div class="card__link">
-                  <i class="fab fa-linkedin-in icon"></i>
-                  <a href="https://www.linkedin.com/in/themisael100/" target="_blank">LinkedIn</a>
-                </div>
-                
-                <div class="card__link">
-                  <i class="far fa-address-card icon"></i>
-                  <a href="/assets/CV/Bryan Misael.pdf" download> Descargar CV </a>
-                </div>                            
-                <p class="card__text" data-section="profile" data-value="description">
-                  ¡Hola! Soy Bryan Misael Sanchez Ramirez, un programador jr de <a href="https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet" target="_blank">.NET</a> apasionado y en crecimiento. <br />
-                  Me especializo en desarrollar soluciones eficientes en esta plataforma, y mi objetivo es aplicar mis conocimientos para ofrecer resultados efectivos en cada proyecto que abordo.
-                </p>
-              </div>
-            </article>
-  
-            <article class="card card--experience">
-              <h2 class="card__title" data-section="experience" data-value="first-job-experience">Experiencia</h2>
-              <div class="experience">
-                <img src="assets/images/icono.png" alt="logo" class="experience__image" />
-                <div class="experience__info">
-                  <p class="experience__time" data-section="experience" data-value="first-job-dates">
-                    2020 - 2022 Educación
-                  </p>
-                  <h3 class="experience__job" data-section="experience" data-value="first-job-title">
-                    BACHILLERATO TÉCNICO EN DESARROLLO DE SOFTWARE
-                  </h3>
-                  <p class="experience__description" data-section="experience" data-value="first-job-description">
-                    Instituto Nacional de Ciudad Arce INCA, El Salvador
-          
-                    En el lapso de tiempo que estudié, desarrollé mis bases en la programación, creando pequeños proyectos y dando mis primeros pasos como desarrollador.
-                  </p>
-                </div>
-              </div>
-              <div class="experience">
-                <img src="assets/images/icono.png" alt="logo" class="experience__image" />
-                <div class="experience__info">
-                  <p class="experience__time" data-section="experience" data-value="second-job-dates">
-                    2023 - 2023 Educación
-                  </p>
-                  <h3 class="experience__job" data-section="experience" data-value="second-job-title">
-                    TÉCNICO EN INGENIERÍA DE DESARROLLO DE SOFTWARE
-                  </h3>
-                  <p class="experience__description" data-section="experience" data-value="second-job-description">
-                    Escuela Superior Franciscana Especializada <a href="https://esfe.agape.edu.sv/" target="_blank">ESFE AGAPE</a>, El Salvador
-                    A través de una beca que me fue otorgada, pude dar continuidad a mi formación académica, lo que me brindó la oportunidad de perfeccionar mis habilidades como programador.
-                  </p>
-                </div>
-              </div>
-              <div class="experience">
-                <img src="assets/images/icono.png" alt="logo" class="experience__image" />
-                <div class="experience__info">
-                  <p class="experience__time" data-section="experience" data-value="last-job-dates">
-                    2023 - 2024 Experiencia Profesional
-                  </p>
-                  <h3 class="experience__job" data-section="experience" data-value="last-job-title">
-                    PROGRAMADOR JR
-                  </h3>
-                  <p class="experience__description" data-section="experience" data-value="last-job-description">
-                    Durante mi primera incursión formal en el mundo laboral, tuve el privilegio de colaborar con la cadena de Restaurantes <a href="https://www.restaurantemaurita.com.sv/" target="_blank">MAURITA </a>MANCEJA SA de CV, como parte de mis prácticas profesionales. Mi enfoque principal consistió en contribuir al desarrollo y la implementación de un sistema integral de distribución y gestión de inventarios. Esta experiencia, enmarcada en un proyecto de equipo, me brindó la oportunidad de ampliar mis conocimientos y habilidades en el ámbito profesional.
-                  </p>
-                </div>
-              </div>
-            </article>
-          </section>
-        </section>
-        
-        <section class="column column--right">
-          <article class="card">
-            <h2 class="card__title">Frontend</h2>
-            <small  data-section="skills" data-value="first-job-years">Años de experiencia</small>
-            <div class="skills">
-              <div class="skills__header">
-                <span class="skills__start-level">0</span>
-                <span class="skills__start-level">2</span>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech"><a href="https://devdocs.io/html/" target="_blank">HTML</a></p>
-                <div class="skills__bar skills__bar--50"></div>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech"><a href="https://devdocs.io/css/" target="_blank">CSS</a></p>
-                <div class="skills__bar skills__bar--40"></div>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech"><a href="https://devdocs.io/javascript/" target="_blank">JavaScript</a></p>
-                <div class="skills__bar skills__bar--30"></div>
-              </div>
-            </div>
-          </article>
-          <article class="card">
-            <h2 class="card__title">Backend</h2>
-            <small data-section="skills" data-value="first-job-years">Años de experiencia</small>
-            <div class="skills">
-              <div class="skills__header">
-                <span class="skills__start-level">0</span>
-                <span class="skills__start-level">2</span>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech"><a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a></p>
-                <div class="skills__bar skills__bar--60"></div>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech"><a href="https://dotnet.microsoft.com/es-es/apps/aspnet" target="_blank">.net core mvc</a></p>
-                <div class="skills__bar skills__bar--60"></div>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech"><a href="https://devdocs.io/javascript/" target="_blank">JavaScript</a></p>
-                <div class="skills__bar skills__bar--30"></div>
-              </div>
-            </div>
-          </article>
-          <article class="card">
-            <h2 class="card__title" data-section="skills" data-value="first-job-tittle">Otros</h2>
-            <small data-section="skills" data-value="first-job-years">Años de experiencia</small>
-            <div class="skills">
-              <div class="skills__header">
-                <span class="skills__start-level">0</span>
-                <span class="skills__start-level">2</span>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech"><a href="https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16" target="_blank">SQL server</a></p>
-                <div class="skills__bar skills__bar--60"></div>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech"><a href="https://docs.github.com/es" target="_blank">Git</a></p>
-                <div class="skills__bar skills__bar--50"></div>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech"><a href="https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops" target="_blank">DevOps</a></p>
-                <div class="skills__bar skills__bar--40"></div>
-              </div>
-            </div>
-          </article>
-  
-          <article class="card card--project">
-            <div class="card__image-container">
-              <img src="assets/images/maurita.jpg" alt="Landing page" class="card__image" />
-            </div>
-            <div class="project">
-              <div class="project__tags">
-                <span class="project__tag">#HTML</span>
-                <span class="project__tag">#CSS</span>
-                <span class="project__tag">#JavaScript</span>
-                <span class="project__tag">#C#</span>
-                <span class="project__tag">#MVC</span>
-              </div>
-             <a href="https://www.restaurantemaurita.com.sv/" target="_blank"><h2 class="card__title">MAURITA</h2></a>
-              <p class="card__text" data-section="project" data-value="four-job-description">
-                Es un sistema de gestión de inventario y distribución para sucursales. Fue diseñado para satisfacer las necesidades del negocio, ya que enfrentaban problemas en la gestión de inventarios tanto en el almacén principal como en las sucursales. El sistema aborda esta necesidad y resuelve con éxito estos problemas.
-              </p>            
-              <div class="buttons">
-                <a href="video.html" class="button button--primary">Demo</a>
-                <a href="" target="_blank" class="button button--ghost" onclick="mostrarAlerta()">Code</a>
-              </div>
-            </div>
-          </article>
-        </section>
-      </main>
-      <script src="js/scripts.js"></script>
+<section class="sec" id="perfil">
+  <div class="wrap about">
+    <div>
+      <div class="head"><h2>Perfil</h2></div>
+      <p class="about__text">Estudiante de Ingeniería en Desarrollo de Software (UES) con base práctica en C#, .NET y bases de datos, y experiencia trabajando de forma colaborativa. He realizado proyectos personales con ASP.NET MVC y Entity Framework, y cuento con disposición para aprender y adaptarme a cualquier tecnología que el equipo o proyecto requiera.</p>
+    </div>
+    <div class="facts">
+      <div class="fact"><h3>Formación técnica</h3><p>Bachillerato técnico y técnico en ingeniería de desarrollo de software.</p></div>
+      <div class="fact"><h3>Experiencia en equipo</h3><p>Prácticas profesionales en Manceja S.A. de C.V. (Restaurantes Maurita) durante 2023 y 2024.</p></div>
+      <div class="fact"><h3>Plataforma .NET</h3><p>C#, ASP.NET Core MVC, Entity Framework y SQL Server como base de trabajo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--alt" id="trayectoria"> 
+  <div class="wrap">
+    <div class="head"><h2>Trayectoria</h2></div>
+    <ol class="timeline">
+      <li class="tl">
+        <div class="tl__meta"><span class="tag">Formación</span><span>2025 – Actualidad</span></div>
+        <h3>Ingeniería en Desarrollo de Software (2º año)</h3>
+        <p class="org">Universidad de El Salvador (UES), El Salvador</p>
+        <p>Formación universitaria en curso, complementando mi base técnica en desarrollo de software.</p>
+      </li>
+      <li class="tl">
+        <div class="tl__meta"><span class="tag">Experiencia</span><span>Oct. 2023 – Mar. 2024</span></div>
+        <h3>Programador .NET Jr</h3>
+        <p class="org"><a href="https://www.restaurantemaurita.com.sv/" target="_blank" rel="noopener">Restaurantes MAURITA</a> · Manceja S.A. de C.V. · Prácticas profesionales</p>
+        <p>Participé en el desarrollo de un sistema de control de inventarios para el Almacén Central de la empresa, usado en la operación diaria del negocio. Colaboré con el equipo en la implementación de funcionalidades usando C#, ASP.NET MVC y Entity Framework, con interfaz en Bootstrap/CSS y base de datos SQL Server. Trabajé en equipo aplicando control de versiones con Git durante el proyecto.</p>
+      </li>
+      <li class="tl">
+        <div class="tl__meta"><span class="tag">Formación</span><span>2023</span></div>
+        <h3>Técnico en Ingeniería de Desarrollo de Software</h3>
+        <p class="org"><a href="https://esfe.agape.edu.sv/" target="_blank" rel="noopener">Escuela Superior Franciscana Especializada ESFE AGAPE</a>, El Salvador · <strong>Becado</strong></p>
+        <p>Estudios realizados con una beca, que me permitieron perfeccionar mis habilidades como programador.</p>
+      </li>
+      <li class="tl">
+        <div class="tl__meta"><span class="tag">Formación</span><span>2020 – 2022</span></div>
+        <h3>Bachillerato Técnico en Desarrollo de Software</h3>
+        <p class="org">Instituto Nacional de Ciudad Arce (INCA), El Salvador</p>
+        <p>Desarrollé mis bases de programación creando pequeños proyectos y di mis primeros pasos como desarrollador.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec project" id="proyecto">
+  <div class="wrap">
+    <img src="assets/images/proyecto-maurita.jpg" width="698" height="698" alt="Imagen del sistema de inventarios para Restaurantes MAURITA">
+    <div>
+      <h2>Sistema de inventario y distribución</h2>
+      <p class="project__desc">Sistema de control de inventarios para el Almacén Central de Restaurantes MAURITA, usado en la operación diaria del negocio. Implementado con C#, ASP.NET MVC y Entity Framework, con interfaz en Bootstrap/CSS y base de datos SQL Server.</p>
+      <ul class="chips" aria-label="Tecnologías del proyecto"><li>C#</li><li>ASP.NET MVC</li><li>Entity Framework</li><li>Bootstrap</li><li>SQL Server</li><li>Git</li></ul>
+      <p class="note">El código es privado por políticas de confidencialidad de la empresa.</p>
+      <a class="btn" href="https://www.restaurantemaurita.com.sv/" target="_blank" rel="noopener">Visitar sitio de MAURITA</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--alt" id="habilidades">
+  <div class="wrap">
+    <div class="head"><h2>Habilidades</h2></div>
+    <div class="skills">
+      <div class="skill">
+        <h3>Lenguajes</h3>
+        <ul>
+          <li>C#</li>
+          <li>Java</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h3>Frameworks / Tecnologías</h3>
+        <ul>
+          <li>ASP.NET Core</li>
+          <li>.NET</li>
+          <li>MVC</li>
+          <li>Entity Framework</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h3>Bases de datos</h3>
+        <ul>
+          <li>SQL Server (intermedio)</li>
+          <li>Oracle (básico)</li>
+          <li>PostgreSQL (básico)</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h3>Herramientas y prácticas</h3>
+        <ul>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>SCRUM</li>
+          <li>Docker (básico)</li>
+          <li>Linux (básico)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="idiomas">
+  <div class="wrap">
+    <div class="head"><h2>Idiomas</h2></div>
+    <div class="skills">
+      <div class="skill"><h3>Español</h3><ul><li>Nativo</li></ul></div>
+      <div class="skill"><h3>Inglés</h3><ul><li>Básico</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec contact" id="contacto">
+  <div class="wrap">
+    <h2>Trabajemos juntos</h2>
+    <p>Si tienes una oportunidad o un proyecto en mente, escríbeme.</p>
+    <a class="contact__mail" href="mailto:softwaremisael@gmail.com">softwaremisael@gmail.com</a>
+    <p>Ciudad Arce, La Libertad, El Salvador</p>
+    <div class="hero__cta">
+      <a class="btn" href="https://www.linkedin.com/in/themisael100/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn--ghost" href="https://github.com/themisael100" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn--ghost" href="assets/docs/Bryan-Misael-CV.pdf" download="Bryan-Misael-CV.pdf">Descargar CV</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer>© 2026 Bryan Misael Sánchez Ramírez</footer>
 </body>
-
 </html>
